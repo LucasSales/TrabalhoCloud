@@ -8,7 +8,7 @@
 
 $url  = 'http://localhost/Cloud/index.php';
 
-$data = ["moedaAtual" => "Real","moedaConvertido" => "Dolar","valor"=>4];
+$data = ["moedaAtual" => "Real","moedaConvertida" => "Dolar","valor"=>4];
 $data = json_encode($data);
 
 $ch   = curl_init();
